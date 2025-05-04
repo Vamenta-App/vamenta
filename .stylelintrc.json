@@ -1,0 +1,25 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-clean-order/error"],
+  "rules": {
+    "declaration-block-no-redundant-longhand-properties": [
+      true,
+      {
+        "ignoreShorthands": ["grid-template", "background"]
+      }
+    ],
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["export", "import", "global", "local", "external"]
+      }
+    ],
+    "unit-disallowed-list": [
+      ["px", "em"],
+      {
+        "ignoreMediaFeatureNames": {
+          "px": ["/(width|height)/"]
+        }
+      }
+    ]
+  }
+}
