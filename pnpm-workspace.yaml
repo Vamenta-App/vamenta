@@ -1,0 +1,4 @@
+savePrefix: ""
+onlyBuiltDependencies:
+  - sharp
+  - lefthook
