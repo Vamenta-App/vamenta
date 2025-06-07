@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - '@heroui/shared-utils'
+  - '@tailwindcss/oxide'
+  - lefthook
+  - sharp
+  - unrs-resolver
+savePrefix: ''
